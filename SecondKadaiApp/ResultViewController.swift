@@ -14,7 +14,7 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let result:String = "こんにちは" + str + "さん"
+        let result:String = "こんにちは【" + str + "】さん"
 // 
         
         
