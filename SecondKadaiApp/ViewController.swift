@@ -13,10 +13,14 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //TextField.text = "123"
         // Do any additional setup after loading the view.
     }
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
         print("---unwind()")
+
+        TextField.text = ""
+        
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
