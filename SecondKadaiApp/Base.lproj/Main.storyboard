@@ -16,22 +16,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ith-FM-yKW">
-                                <rect key="frame" x="14.5" y="144" width="191" height="21"/>
+                                <rect key="frame" x="111.5" y="144" width="191" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="だれかの名前" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SOW-Px-Tni">
-                                <rect key="frame" x="50" y="175" width="120" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="vWi-Dz-31E"/>
-                                </constraints>
+                                <rect key="frame" x="99" y="175" width="216" height="45"/>
                                 <color key="textColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKI-n5-1jG">
-                                <rect key="frame" x="71.5" y="250" width="77" height="30"/>
+                                <rect key="frame" x="168.5" y="320" width="77" height="30"/>
                                 <state key="normal" title="次のページ"/>
                                 <connections>
                                     <segue destination="R6M-Un-rCT" kind="show" id="n6f-kW-UfR"/>
@@ -40,19 +37,18 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="SOW-Px-Tni" firstAttribute="top" secondItem="Ith-FM-yKW" secondAttribute="bottom" constant="100" id="06c-BY-D7t"/>
                             <constraint firstItem="qKI-n5-1jG" firstAttribute="top" secondItem="SOW-Px-Tni" secondAttribute="bottom" constant="100" id="1Ld-ho-4gj"/>
+                            <constraint firstItem="Ith-FM-yKW" firstAttribute="centerX" secondItem="SOW-Px-Tni" secondAttribute="centerX" id="5of-Z1-Rkg"/>
                             <constraint firstItem="Ith-FM-yKW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="A7P-Lx-dyJ"/>
                             <constraint firstItem="SOW-Px-Tni" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EGF-oe-j7a"/>
                             <constraint firstItem="Ith-FM-yKW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FVZ-Di-bPv"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SOW-Px-Tni" secondAttribute="trailing" constant="50" id="Fzn-s3-piL"/>
-                            <constraint firstItem="SOW-Px-Tni" firstAttribute="top" secondItem="Ith-FM-yKW" secondAttribute="bottom" constant="10" id="T8p-5F-QU3"/>
                             <constraint firstItem="Ith-FM-yKW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZlD-pA-85c"/>
                             <constraint firstItem="qKI-n5-1jG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eNs-VF-XFS"/>
-                            <constraint firstItem="qKI-n5-1jG" firstAttribute="top" secondItem="SOW-Px-Tni" secondAttribute="bottom" constant="30" id="j4s-N6-55D"/>
+                            <constraint firstItem="qKI-n5-1jG" firstAttribute="centerX" secondItem="SOW-Px-Tni" secondAttribute="centerX" id="ho5-kJ-Q7e"/>
                             <constraint firstItem="qKI-n5-1jG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j4t-TF-rhB"/>
-                            <constraint firstItem="SOW-Px-Tni" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="kCc-Tj-2Q9"/>
                             <constraint firstItem="SOW-Px-Tni" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="l2c-KQ-uwg"/>
+                            <constraint firstItem="SOW-Px-Tni" firstAttribute="top" secondItem="Ith-FM-yKW" secondAttribute="bottom" constant="10" id="lGI-3c-lDb"/>
+                            <constraint firstItem="qKI-n5-1jG" firstAttribute="top" secondItem="SOW-Px-Tni" secondAttribute="bottom" constant="100" id="sqO-QD-Qx4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
